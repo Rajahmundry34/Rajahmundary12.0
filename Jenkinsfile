@@ -21,7 +21,7 @@ pipeline{
                     sh script: 'mvn clean package sonar:sonar'
                 }
             }
-        stage('archiving-artifacts'){
+        stage('archiving-artifacts')    {
             steps{
                 archiveArtifacts artifacts: '**/target/*.jar', followSymlinks: false
             }
