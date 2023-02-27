@@ -4,7 +4,7 @@ pipeline{
         label 'MVN3'
     }
     stages{
-        stage('clone'){
+        stage('clone')   {
             steps{
                 git url: 'https://github.com/tarunkumarpendem/shopizer.git',
                     branch: 'master'
