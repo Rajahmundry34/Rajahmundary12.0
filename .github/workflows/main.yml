@@ -13,7 +13,7 @@ jobs:
         run: echo "Hello, World!" > output.txt
       - name: Commit changes
         run: |
-          git config --global user.email "venkatesh.sony@gmail.com"
+          git config --global user.email "akoritala@tapestry.com"
           git config --global user.name "Venkatesh"
           git checkout -b Rajahmundary12.0ROW
           git add output.txt
