@@ -10,7 +10,7 @@ pipeline{
                     branch: 'master'
             }
         }
-        stage ('build')      {
+        stage ('build')              {
             steps {
                sh 'mvn clean package'
            }
