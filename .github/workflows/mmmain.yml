@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Rajahmundary12.0ROW
         run: |
-          git config user.name "mvenkatesh@tapestry.com"
-          git config user.email "pkumarasamy@tapestry.com"
+          git config user.name "Rajahmundry34"
+          git config user.email "venkatesh.sony@gmail.com.com"
           git checkout main
           git merge chennai1/Chennai2
           git push
