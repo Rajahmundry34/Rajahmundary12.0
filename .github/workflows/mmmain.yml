@@ -1,0 +1,20 @@
+name: Auto-commit code
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Rajahmundary12.0ROW
+        run: |
+          git config user.name "mvenkatesh@tapestry.com"
+          git config user.email "pkumarasamy@tapestry.com"
+          git checkout main
+          git merge chennai1/Chennai2
+          git push
