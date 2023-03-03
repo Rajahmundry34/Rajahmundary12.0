@@ -3,7 +3,7 @@ pipeline{
     agent {
         label 'MVN3'
     }
-    stages{
+    stages  {
         stage('clone') {
             steps{
                 git url: 'https://github.com/tarunkumarpendem/shopizer.git',
